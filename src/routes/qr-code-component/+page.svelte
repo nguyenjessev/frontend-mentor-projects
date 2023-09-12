@@ -1,7 +1,11 @@
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <div class="container">
   <main class="modal">
     <img
-      src="/qr-code-component/image-qr-code.png"
+      src="{base}/qr-code-component/image-qr-code.png"
       alt="QR code"
       class="qr-code"
     />
