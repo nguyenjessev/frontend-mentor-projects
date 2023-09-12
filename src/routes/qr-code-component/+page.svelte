@@ -52,6 +52,7 @@
   }
 
   .paragraph {
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
   }
