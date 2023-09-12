@@ -51,7 +51,7 @@
   .headline {
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    margin: 1.5rem 1rem 0;
+    margin: 1.5rem 0.5rem 0;
     text-align: center;
   }
 
@@ -59,7 +59,7 @@
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
-    margin: 1rem 2rem;
+    margin: 1rem 1rem;
     text-align: center;
   }
 </style>
