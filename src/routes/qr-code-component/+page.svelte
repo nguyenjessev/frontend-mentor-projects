@@ -16,6 +16,14 @@
 </div>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+  *,
+  *::before,
+  *::after {
+    font-family: 'Outfit', sans-serif;
+  }
+
   .container {
     background: hsl(212, 45%, 89%);
     display: grid;
