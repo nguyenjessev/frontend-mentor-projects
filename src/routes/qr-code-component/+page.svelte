@@ -37,6 +37,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 1rem;
     max-width: 320px;
     padding: 16px;
     width: 100%;
