@@ -28,6 +28,7 @@
     background: hsl(212, 45%, 89%);
     display: grid;
     height: 100dvh;
+    padding: 1rem;
     place-items: center;
     width: 100dvw;
   }
@@ -37,8 +38,8 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
     max-width: 320px;
+    min-width: 0; /* Needed because child img prevent parent from shrinking */
     padding: 16px;
     width: 100%;
   }
@@ -48,13 +49,17 @@
   }
 
   .headline {
+    color: hsl(218, 44%, 22%);
     font-weight: 700;
+    margin: 1.5rem 1rem 0;
     text-align: center;
   }
 
   .paragraph {
+    color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
+    margin: 1rem 2rem;
     text-align: center;
   }
 </style>
