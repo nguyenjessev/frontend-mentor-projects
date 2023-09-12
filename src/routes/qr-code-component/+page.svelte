@@ -40,6 +40,7 @@
   .modal {
     background: white;
     border-radius: 20px;
+    box-shadow: 0 10px 20px hsl(0, 0%, 80%);
     display: flex;
     flex-direction: column;
     max-width: 320px;
