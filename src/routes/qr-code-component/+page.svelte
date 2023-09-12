@@ -1,5 +1,7 @@
 <div class="container">
-  <main class="modal" />
+  <main class="modal">
+    <img src="/qr-code-component/image-qr-code.png" alt="QR code" />
+  </main>
 </div>
 
 <style>
@@ -13,7 +15,8 @@
 
   .modal {
     background: white;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
     max-width: 320px;
     width: 100%;
   }
