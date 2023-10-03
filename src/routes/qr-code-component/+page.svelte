@@ -2,6 +2,10 @@
   import { base } from '$app/paths';
 </script>
 
+<svelte:head>
+  <title>QR Code Component</title>
+</svelte:head>
+
 <div class="container">
   <main class="modal">
     <img
